@@ -4,7 +4,7 @@ import redis.clients.jedis.Jedis;
 
 public class CheckRedisData {
     public static void main(String[] args) {
-        String redisHost = "your-redis-endpoint"; // Replace with your Redis endpoint
+        String redisHost = "redis-test.vgeqdj.ng.0001.usw1.cache.amazonaws.com"; // Replace with your Redis endpoint
         int redisPort = 6379; // Default Redis port, change if yours is different
         Jedis jedis = new Jedis(redisHost, redisPort);
 
